@@ -12,6 +12,29 @@
 .app{min-height:100vh;display:grid;grid-template-columns:250px 1fr}.sidebar{background:var(--nav);color:#dce4f5;padding:25px 17px;display:flex;flex-direction:column;min-height:100vh;position:sticky;top:0;height:100vh}.sidebar .brand{padding:0 10px 32px}.sidebar .brand-mark{background:#6979f2}.nav-label{font-size:10px;text-transform:uppercase;letter-spacing:1.3px;color:#7f8ca6;padding:0 12px;margin:8px 0}.nav-item{border:0;background:transparent;color:#aebbd1;text-align:left;padding:12px;border-radius:11px;margin:3px 0;display:flex;gap:12px;align-items:center;width:100%;font-weight:600}.nav-item.active,.nav-item:hover{background:var(--nav2);color:white}.nav-icon{width:22px;text-align:center;font-size:17px}.side-bottom{margin-top:auto}.user-chip{border-top:1px solid #29364c;padding:18px 8px 10px;display:flex;align-items:center;gap:10px}.avatar{width:38px;height:38px;border-radius:13px;background:#303f60;color:white;display:grid;place-items:center;font-weight:800}.user-meta{min-width:0}.user-meta strong{display:block;color:white;font-size:13px}.user-meta small{color:#8e9cb4}.main{min-width:0;padding:30px clamp(18px,3vw,42px) 48px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:28px}.eyebrow{color:var(--muted);font-size:13px}.topbar h1{font-size:27px;letter-spacing:-.7px;margin:2px 0}.top-actions{display:flex;gap:9px;align-items:center}.mobile-brand{display:none}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-bottom:19px}.stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:19px;box-shadow:0 4px 16px rgba(20,30,50,.025)}.stat-top{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:13px}.stat-icon{width:35px;height:35px;border-radius:11px;display:grid;place-items:center;background:#eef0ff;color:#5969e8;font-size:17px}.stat-value{font-size:clamp(20px,2vw,27px);font-weight:780;letter-spacing:-.7px;margin-top:13px;overflow-wrap:anywhere}.stat-foot{font-size:12px;color:var(--muted);margin-top:4px}.positive{color:var(--green)}.negative{color:var(--red)}.grid-main{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.85fr);gap:17px;margin-bottom:18px}.panel{background:white;border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:0 4px 16px rgba(20,30,50,.025);min-width:0}.panel-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}.panel h3{font-size:16px;margin:0}.panel-desc{font-size:12px;color:var(--muted);margin-top:3px}.chart-wrap{height:250px;position:relative}.chart-wrap canvas{width:100%;height:100%}.legend{display:flex;gap:16px;font-size:12px;color:var(--muted);margin-top:12px}.dot{width:8px;height:8px;display:inline-block;border-radius:50%;margin-right:6px}.toolbar{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-bottom:15px}.toolbar input{max-width:230px}.toolbar select{width:auto;min-width:130px}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;white-space:nowrap}th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:#8993a4;padding:12px 10px;border-bottom:1px solid var(--line)}td{padding:14px 10px;border-bottom:1px solid #f0f2f6;font-size:13px}tbody tr:last-child td{border-bottom:0}.type-pill{padding:5px 9px;border-radius:20px;font-size:11px;font-weight:700}.income{background:#e7f7f1;color:#12815f}.expense{background:#fff0f1;color:#c64a55}.actions{display:flex;gap:6px}.icon-btn{border:1px solid var(--line);background:white;border-radius:8px;padding:6px 8px;color:#596579}.empty{text-align:center;color:var(--muted);padding:34px 12px}.empty strong{display:block;color:#465064;margin-bottom:4px}.section{margin-bottom:18px}.modal-backdrop{position:fixed;inset:0;background:#10182780;z-index:20;display:grid;place-items:center;padding:18px}.modal{width:min(510px,100%);max-height:90vh;overflow:auto;background:white;border-radius:20px;padding:24px;box-shadow:0 24px 70px #0003}.modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.modal-head h2{margin:0;font-size:20px}.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}.modal-grid .full{grid-column:1/-1}.toast{position:fixed;right:22px;bottom:22px;z-index:40;background:#172338;color:white;padding:13px 17px;border-radius:12px;box-shadow:var(--shadow);max-width:min(420px,calc(100vw - 40px));font-size:13px}.toast.bad{background:#a93643}.loading{opacity:.65;pointer-events:none}.readonly-note{background:#f0f2ff;color:#5361c7;border-radius:11px;padding:11px 13px;font-size:13px;margin-bottom:16px}.filter-row{display:flex;gap:8px;flex-wrap:wrap}.filter-row input,.filter-row select{padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:white}
 @media(max-width:1050px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-main{grid-template-columns:1fr}.app{grid-template-columns:215px 1fr}.sidebar{padding-inline:12px}}
 @media(max-width:720px){.login-wrap{grid-template-columns:1fr}.login-visual{display:none}.login-side{min-height:100vh;padding:18px}.login-card{padding:26px}.app{display:block}.sidebar{position:fixed;z-index:10;left:0;right:0;bottom:0;top:auto;height:auto;min-height:0;padding:7px 8px calc(7px + env(safe-area-inset-bottom));display:block}.sidebar .brand,.nav-label,.side-bottom{display:none}.nav-list{display:flex;justify-content:space-around;gap:3px}.nav-item{flex:1;justify-content:center;flex-direction:column;gap:3px;padding:7px 2px;margin:0;font-size:10px;border-radius:9px}.nav-icon{font-size:17px}.main{padding:20px 14px 105px}.topbar{margin-bottom:20px;align-items:flex-start}.topbar h1{font-size:23px}.top-actions .btn{padding:9px 10px;font-size:12px}.cards{gap:9px}.stat{padding:14px;border-radius:14px}.stat-value{font-size:20px}.stat-top{font-size:11px}.stat-icon{width:29px;height:29px}.panel{padding:15px;border-radius:15px}.chart-wrap{height:210px}.toolbar{display:grid;grid-template-columns:1fr 1fr}.toolbar input{max-width:none;grid-column:1/-1}.toolbar select{width:100%;min-width:0}.modal-grid{grid-template-columns:1fr}.modal-grid .full{grid-column:auto}.table-wrap{margin:0 -5px}.top-actions .hide-mobile{display:none}}
+  
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 48px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 6px;
+  color: #64748b;
+}
+
 </style>
 </head>
 <body>
@@ -26,7 +49,15 @@
       <div class="brand" style="color:#182230;margin-bottom:25px"><div class="brand-mark">↗</div><span>Finance Tracker</span></div>
       <h2>Selamat datang</h2><p class="sub">Masuk untuk melanjutkan ke dashboard keuangan.</p>
       <div class="field"><label for="username">Username</label><input id="username" autocomplete="username" required placeholder="Masukkan username"></div>
-      <div class="field"><label for="password">Password</label><input id="password" type="password" autocomplete="current-password" required placeholder="Masukkan password"></div>
+      <div class="field">
+        <label for="password">Password</label>
+        <div class="password-wrapper">
+          <input id="password" type="password" autocomplete="current-password" required placeholder="Masukkan password">
+          <button type="button" id="togglePassword" class="toggle-password" aria-label="Lihat password" title="Lihat password">
+            👁
+          </button>
+        </div>
+      </div>
       <div id="loginError" class="error hidden"></div>
       <button class="btn btn-primary btn-block" id="loginButton" type="submit">Masuk ke dashboard <span>→</span></button>
       <div class="hint">Gunakan username dan password yang sudah dibuat melalui Google Apps Script.</div>
@@ -101,7 +132,7 @@
   const state = {token:null,user:null,transactions:[],page:"dashboard",editingId:null,toastTimer:null};
   const money = n => new Intl.NumberFormat("id-ID",{style:"currency",currency:"IDR",maximumFractionDigits:0}).format(Number(n)||0);
   const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  const isAnalyst = () => state.user?.username === "jayajaya";
+  const isAnalyst = () => state.user?.role === "analisis";
   const isIncome = t => /pemasukan|income|masuk/i.test(t.jenis);
   const dateObj = s => { const p=String(s||"").slice(0,10).split("-").map(Number); return p.length===3 && p.every(Number.isFinite) ? new Date(p[0],p[1]-1,p[2]) : new Date(0); };
   const dateLabel = s => {const d=dateObj(s);return d.getTime()===0?"—":d.toLocaleDateString("id-ID",{day:"2-digit",month:"short",year:"numeric"});};
@@ -140,7 +171,14 @@
     $("loginScreen").classList.add("hidden");$("appScreen").classList.remove("hidden");
     $("sideUsername").textContent=state.user.username;
     $("sideAvatar").textContent=state.user.username.slice(0,1).toUpperCase();
-    $("sideRole").textContent=isAnalyst()?"Analisis keseluruhan":({abdul:"Dashboard Ahmad",aca:"Dashboard Fatim",gank:"Tabungan bersama"}[state.user.username]||"Pengguna");
+    const roleLabels = {
+      ahmad: "Dashboard Ahmad",
+      fatim: "Dashboard Fatim",
+      bersama: "Tabungan bersama",
+      analisis: "Analisis keseluruhan"
+    };
+    
+    $("sideRole").textContent = roleLabels[state.user.role] || "Pengguna";
     $("readonlyNote").classList.toggle("hidden",!isAnalyst());
     $("addButton").classList.toggle("hidden",isAnalyst());
     $("logoutButton").addEventListener("click",logout);
@@ -241,6 +279,19 @@
   }
   async function refresh(){try{await loadTransactions();toast("Data berhasil diperbarui.");}catch(e){toast(e.message,true);}}
   $("loginForm").addEventListener("submit",e=>{e.preventDefault();login($("username").value,$("password").value);});
+  
+$("togglePassword").addEventListener("click", () => {
+  const passwordInput = $("password");
+  const isHidden = passwordInput.type === "password";
+
+  passwordInput.type = isHidden ? "text" : "password";
+  $("togglePassword").textContent = isHidden ? "🙈" : "👁";
+  $("togglePassword").setAttribute(
+    "aria-label",
+    isHidden ? "Sembunyikan password" : "Lihat password"
+  );
+});
+
   $("addButton").addEventListener("click",()=>openModal());
   $("closeModal").addEventListener("click",closeModal);$("cancelModal").addEventListener("click",closeModal);
   $("transactionModal").addEventListener("click",e=>{if(e.target===$("transactionModal"))closeModal();});
